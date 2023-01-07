@@ -1,0 +1,40 @@
+\usepackage{graphicx}% include images/graphics
+\usepackage[usenames,dvipsnames]{xcolor}% nice colors
+\usepackage[colorlinks=true,allcolors=RoyalBlue]{hyperref}% always useful
+\usepackage{url}% could be useful
+\usepackage{enumitem}% good to have
+\setlength{\parindent}{0pt}% no indents
+\usepackage[sorting=none]{biblatex}% manage bibliography: do not sort references
+
+% Save the title, author, date
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+% HEADER | OPTIONAL
+\usepackage{fancyhdr}% header will be printed on every page
+\lhead{\theauthor}% author's name
+\rhead{\thetitle}% name of report
+\lfoot{\thedate}% add date
+\pagestyle{fancy}% set headers
+
+% QUESTIONS | SOLUTION ENVIRONMENTS
+% question environment for consistency and to save on typing
+\newenvironment{question}
+  {\itshape\list{}{\leftmargin=0em\rightmargin=0em}%
+   \item\relax}
+  {\endlist\ignorespacesafterend}
+
+% solution environment for consistency and to save on typing
+\newenvironment{solution}
+  {\textbf{Solution: }\list{}{\leftmargin=1em\rightmargin=0em}% <-- \leftmargin=0em to suppress margin
+   \item\relax}
+  {\endlist\ignorespacesafterend}
+
+% command \sepline defines a gray horizontal line
+\newcommand*\sepline{%
+  \nopagebreak\vspace{\baselineskip}\noindent\textcolor{black!10!white}{\rule{\textwidth}{2pt}}\vspace{\baselineskip}
+}
+

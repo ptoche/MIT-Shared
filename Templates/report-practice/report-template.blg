@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'report-template.blg'
+[52] biber-darwin:340> INFO - === Fri May 27, 2022, 19:10:08
+[64] Biber.pm:418> INFO - Reading 'report-template.bcf'
+[128] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
+[139] Biber.pm:4383> INFO - Processing section 0
+[147] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[148] bibtex.pm:1713> INFO - LaTeX decoding ...
+[151] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[196] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[196] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[196] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[196] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[200] bbl.pm:654> INFO - Writing 'report-template.bbl' with encoding 'UTF-8'
+[201] bbl.pm:757> INFO - Output to report-template.bbl
+[201] Biber.pm:130> WARN - legacy month field 'April' in entry 'Gustavii:2017' is not an integer - this will probably not sort properly.
+[201] Biber.pm:132> INFO - WARNINGS: 1
