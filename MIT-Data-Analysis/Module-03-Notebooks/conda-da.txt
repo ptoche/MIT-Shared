@@ -1,9 +1,0 @@
-conda create --name da python=3.11
-conda activate da
-conda install numpy
-conda install pandas
-conda install -c conda-forge matplotlib
-conda install seaborn
-conda install jupyterlab
-conda install networkx=3.0
-conda install -c intel scikit-learn
