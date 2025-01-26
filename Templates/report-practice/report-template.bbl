@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Wasserstein:2016}{article}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Wasserstein:2016}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{2}{}{%
@@ -36,10 +36,12 @@
       }
       \strng{namehash}{257dd4b92a25e63271356f726ac24994}
       \strng{fullhash}{257dd4b92a25e63271356f726ac24994}
+      \strng{fullhashraw}{257dd4b92a25e63271356f726ac24994}
       \strng{bibnamehash}{257dd4b92a25e63271356f726ac24994}
       \strng{authorbibnamehash}{257dd4b92a25e63271356f726ac24994}
       \strng{authornamehash}{257dd4b92a25e63271356f726ac24994}
       \strng{authorfullhash}{257dd4b92a25e63271356f726ac24994}
+      \strng{authorfullhashraw}{257dd4b92a25e63271356f726ac24994}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -52,7 +54,7 @@
       \field{pages}{129\bibrangedash 133}
       \range{pages}{5}
     \endentry
-    \entry{Gustavii:2017}{book}{}
+    \entry{Gustavii:2017}{book}{}{}
       \name{author}{1}{}{%
         {{hash=06406408ee4937268cede337f6d97bd5}{%
            family={Gustavii},
@@ -68,10 +70,12 @@
       }
       \strng{namehash}{06406408ee4937268cede337f6d97bd5}
       \strng{fullhash}{06406408ee4937268cede337f6d97bd5}
+      \strng{fullhashraw}{06406408ee4937268cede337f6d97bd5}
       \strng{bibnamehash}{06406408ee4937268cede337f6d97bd5}
       \strng{authorbibnamehash}{06406408ee4937268cede337f6d97bd5}
       \strng{authornamehash}{06406408ee4937268cede337f6d97bd5}
       \strng{authorfullhash}{06406408ee4937268cede337f6d97bd5}
+      \strng{authorfullhashraw}{06406408ee4937268cede337f6d97bd5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -82,7 +86,7 @@
       \field{title}{How to Write and Illustrate a Scientific Paper}
       \field{year}{2017}
     \endentry
-    \entry{Wiki:PCA}{misc}{}
+    \entry{Wiki:PCA}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=d708e40e76e922b18f38784d305baf5c}{%
            family={{Principal component analysis}},
@@ -90,10 +94,12 @@
       }
       \strng{namehash}{d708e40e76e922b18f38784d305baf5c}
       \strng{fullhash}{d708e40e76e922b18f38784d305baf5c}
+      \strng{fullhashraw}{d708e40e76e922b18f38784d305baf5c}
       \strng{bibnamehash}{d708e40e76e922b18f38784d305baf5c}
       \strng{authorbibnamehash}{d708e40e76e922b18f38784d305baf5c}
       \strng{authornamehash}{d708e40e76e922b18f38784d305baf5c}
       \strng{authorfullhash}{d708e40e76e922b18f38784d305baf5c}
+      \strng{authorfullhashraw}{d708e40e76e922b18f38784d305baf5c}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
